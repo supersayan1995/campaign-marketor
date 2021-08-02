@@ -1,0 +1,19 @@
+.main-nav
+{
+    display:flex;
+    justify-content: space-between;
+}
+a
+{
+    color:#fff;
+}
+a:hover
+{
+    text-decoration:none;
+    color:#fff;
+    cursor: pointer;
+}
+.modal-styles
+{
+    color:#000;
+}

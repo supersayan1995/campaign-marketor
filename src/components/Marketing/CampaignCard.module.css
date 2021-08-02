@@ -1,0 +1,16 @@
+.card-styles
+{
+    color:#000;
+    margin:10px 0px;
+    height:100%;
+}
+.card-body-styles
+{
+    height:100%;
+}
+.card-buttons
+{
+    margin-top:15px;
+    display:flex;
+    justify-content:space-between;
+}

@@ -1,0 +1,67 @@
+.modal
+{
+    position:fixed;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    background:rgba(0,0,0,0.5);
+    color:#000;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    z-index: 100;
+}
+.seperator
+{
+    margin:15px 0px;
+    width:100%;
+    border:1px solid #333;
+}
+.modal-content
+{
+    background:#fff;
+    width:30%;
+    padding:30px 20px;
+    border-radius:15px;
+}
+.modal-footer
+{
+    display:flex;
+    justify-content:space-between;
+}
+
+@media (min-width:769px) and (max-width:1024px)
+{
+    .modal-title
+    {
+        font-size:1.2rem;
+    }
+    .modal-content .modal-body form label
+    {
+        font-size:0.9rem;
+    }
+    .modal-content .modal-body form input
+    {
+        font-size: 0.8rem;
+    }
+}
+@media (max-width:768px)
+{
+    .modal-title
+    {
+        font-size:1rem;
+    }
+    .modal-content .modal-body form label
+    {
+        font-size:0.7rem;
+    }
+    .modal-content .modal-body form input
+    {
+        font-size: 0.6rem;
+    }
+    .modal-content .modal-footer button
+    {
+        font-size:0.7rem;
+    }
+}

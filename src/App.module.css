@@ -1,0 +1,11 @@
+header
+{
+    background:#4C49F2;
+}
+footer
+{
+    width:100%;
+    background:#4C49F2;
+    position: fixed;
+    bottom:0px;
+}
